@@ -1,14 +1,17 @@
 import React from 'react';
-import App from './App';
-import navbar from './navbar';
-const offerings =()=> {
+
+const Offerings = () => {
     return (
         <section>
-    <div> <h1> Your Path to Mental Wellness Starts Here</h1>
-    </div> </section>
+            <div>
+                <h2>Offerings</h2>
+                <p>
+                Explore Our Offerings
+                </p>
+                
+            </div>
+        </section>
+    );
+};
 
-    
-        
-    )
-}
-export default offerings;
+export default Offerings;

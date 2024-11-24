@@ -1,16 +1,13 @@
 import React from 'react';
-//import App from './App';
-//import navbar from './navbar';
-const home =()=> {
-    return (
-       
-    <div className='bg [black]'> 
-    <p className='text-5x1 md:text 7x1'> Your Path to Mental Wellness Starts Here</p>
-    </div>
- 
+// import App from './App';
+// import Navbar from './navbar';
 
-    
-        
+const Home = () => {
+    return (
+        <div className='bg-black'> 
+            <p className='text-5xl md:text-7xl'>Your Path to Mental Wellness Starts Here</p>
+        </div>        
     );
 };
-export default home;
+
+export default Home;

@@ -1,11 +1,22 @@
 import React from 'react';
-import App from './App';
-import navbar from './navbar';
-const sharestories =()=> {
+
+const ShareStories = () => {
     return (
         <section>
-    <div> <h1> Your Path to Mental Wellness Starts Here</h1>
-    </div> </section>  
+            <div>
+                <h2>Share Your Story</h2>
+                <p>
+                Let your voice be heard.
+                </p>
+                <form>
+                <textarea placeholder="story title" rows="2" />
+                <textarea placeholder="story catagory" rows="2" />
+                    <textarea placeholder="story detail" rows="10" />
+                    <button type="submit">Submit Story</button>
+                </form>
+            </div>
+        </section>
     );
 };
-export default sharestories;
+
+export default ShareStories;

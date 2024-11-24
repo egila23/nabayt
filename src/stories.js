@@ -1,11 +1,16 @@
 import React from 'react';
-import App from './App';
-import navbar from './navbar';
-const stories =()=> {
+
+const Stories = () => {
     return (
         <section>
-    <div> <h1> Your Path to Mental Wellness Starts Here</h1>
-    </div> </section>
-    )
+            <div>
+                <h2>Stories</h2>
+                <p>
+                Explore Diverse Stories
+                </p>
+            </div>
+        </section>
+    );
 };
-export default stories;
+
+export default Stories;

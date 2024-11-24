@@ -1,26 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const navbar = () =>{
+const Navbar = () => {
     return (
         <nav>
             <h1>Nabayt</h1>
             <ul>
                 <li>
-                   <Link to="/home.tsx">Home</Link>
+                    <Link to="/home">Home</Link>
                 </li>
                 <li>
-                <Link to="/stories.tsx">Stories</Link>
+                    <Link to="/stories">Stories</Link>
                 </li>
                 <li>
-                <Link to="/offerings.tsx">Offerings</Link>
+                    <Link to="/offerings">Offerings</Link>
                 </li>
                 <li>
-                <Link to="/about.tsx">About</Link>
+                    <Link to="/about">About</Link>
                 </li>
             </ul>
-            <button> <Link to="/sharestory.tsx">Share Story</Link>/</button>
+            <button>
+                <Link to="/sharestory">Share Story</Link>
+            </button>
         </nav>
-    )
-}
-export default navbar;
+    );
+};
+
+export default Navbar;
